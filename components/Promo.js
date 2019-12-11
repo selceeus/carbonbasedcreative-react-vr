@@ -19,7 +19,7 @@ export default class Promo extends React.Component {
 
         this.promoVideo.play({
             source: { url: asset('./video/spi.mp4').uri },
-            muted: false,
+            muted: true,
             volume: 0.1
         });
 
